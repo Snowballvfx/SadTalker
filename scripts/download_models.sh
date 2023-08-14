@@ -20,8 +20,8 @@ wget -nc https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2-rc/Sad
 wget -nc https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2-rc/SadTalker_V0.0.2_512.safetensors -O  ./checkpoints/SadTalker_V0.0.2_512.safetensors
 
 
-# wget -nc https://github.com/Winfredy/SadTalker/releases/download/v0.0.2/BFM_Fitting.zip -O ./checkpoints/BFM_Fitting.zip
-# unzip -n ./checkpoints/BFM_Fitting.zip -d ./checkpoints/
+ wget -nc https://github.com/Winfredy/SadTalker/releases/download/v0.0.2/BFM_Fitting.zip -O ./checkpoints/BFM_Fitting.zip
+ unzip -n ./checkpoints/BFM_Fitting.zip -d ./checkpoints/
 
 ### enhancer 
 mkdir -p ./gfpgan/weights
